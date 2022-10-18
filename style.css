@@ -42,6 +42,7 @@ ul li{
     display:grid;
     grid-template-columns: 1fr 1fr;
     max-width:75%;
+    min-height:40%;
     margin-block:6rem;
     background: var(--bg-secondary);
     border-radius:10px;
@@ -108,7 +109,7 @@ h1{
     border-bottom-right-radius:10px;
     border-top-right-radius:10px;
 }
-@media (max-width:450px){
+@media all and (max-width:450px){
     .container{
         display:grid;
         place-items:center;
