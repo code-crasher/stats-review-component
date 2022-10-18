@@ -26,6 +26,7 @@
 body{
     font-size:inherit;
     background: var(--bg-primary);
+    overflow: hidden;
 }
 img{
     width:100%;
@@ -37,13 +38,14 @@ ul li{
 .container{
     display:grid;
     place-items:center;
+    align-items: center;
 }
 .container__card{
     display:grid;
     grid-template-columns: 1fr 1fr;
     max-width:75%;
     min-height:40%;
-    margin-block:6rem;
+    margin-block:4rem;
     background: var(--bg-secondary);
     border-radius:10px;
 }
@@ -52,7 +54,7 @@ ul li{
 }
 h1{
     font-family: var(--ff-primary);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: var(--fs-700);
     color:var(--neutral-100);
     margin-top:1.5rem;
@@ -150,5 +152,11 @@ h1{
     }
 }
 @media (width:1440px){
+    h2{
+        font-size: 40px;
+    }
+    .stats{
+        font-size: 20px;
+    }
 
 }
