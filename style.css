@@ -45,7 +45,7 @@ ul li{
     grid-template-columns: 1fr 1fr;
     width:600px;
     height:auto;
-    margin-block:4rem;
+    margin-top:3rem;
     background: var(--bg-secondary);
     border-radius:10px;
 }
